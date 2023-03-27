@@ -12,7 +12,7 @@ body {
     height: 100vh;
     font-family: 'Montserrat', sans-serif;
     color: rgb(255, 255, 255);
-    background-color: rgba(82, 82, 82);
+    background-color: rgb(32, 30, 43);
 }
 
 div {
@@ -34,9 +34,9 @@ button {
     text-transform: uppercase;
     cursor: pointer;
     transition: color .3s, box-shadow .3s;
-    box-shadow: 3px 3px 10px #00cfff
+    box-shadow: 3px 3px 10px #00cfff;
 	
-	&hover {
+	&:hover {
 		color: #00ffae;
 		box-shadow: 3px 3px 10px #00ffae;
 	}
